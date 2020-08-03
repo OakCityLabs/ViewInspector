@@ -31,6 +31,9 @@ extension DisclosureGroupWithBinding: Inspectable { }
 final class DisclosureGroupTests: XCTestCase {
     
     func testWithSingleContentAndLabel() throws {
+        guard #available(iOS 14.0, *) else {
+            throw XCTSkip("DisclosureGroup tests can only run on iOS 14")
+        }
         let sampleDisclosure = DisclosureGroup(content: {
             Text("Content Text 123")
         }, label: {
@@ -47,6 +50,9 @@ final class DisclosureGroupTests: XCTestCase {
     }
     
     func testWithVStackAsContent() throws {
+        guard #available(iOS 14.0, *) else {
+            throw XCTSkip("DisclosureGroup tests can only run on iOS 14")
+        }
         let sampleDisclosure = DisclosureGroup(content: {
             VStack {
                 Text("First Entry")
@@ -73,7 +79,10 @@ final class DisclosureGroupTests: XCTestCase {
     ///testing the isExpanded flag
     /// Can't actually test right now if the content is visible/expanded
     /// testing if the flag binding changes
-    func testExpansion() {
+    func testExpansion() throws {
+        guard #available(iOS 14.0, *) else {
+            throw XCTSkip("DisclosureGroup tests can only run on iOS 14")
+        }
         let isExpanded = Binding<Bool>(wrappedValue: false)
         let contentWasShown = Binding<Bool>(wrappedValue: false)
             
@@ -88,6 +97,9 @@ final class DisclosureGroupTests: XCTestCase {
     }
 
     func testExtractionFromSingleViewContainer() throws {
+        guard #available(iOS 14.0, *) else {
+            throw XCTSkip("DisclosureGroup tests can only run on iOS 14")
+        }
         let sampleDisclosure = DisclosureGroup(content: {
             VStack {
                 Text("First Entry")
@@ -103,6 +115,9 @@ final class DisclosureGroupTests: XCTestCase {
     }
  
     func testExtractionFromMultipleViewContainer() throws {
+        guard #available(iOS 14.0, *) else {
+            throw XCTSkip("DisclosureGroup tests can only run on iOS 14")
+        }
         let sampleDisclosure = DisclosureGroup(content: {
             VStack {
                 Text("First Entry")
