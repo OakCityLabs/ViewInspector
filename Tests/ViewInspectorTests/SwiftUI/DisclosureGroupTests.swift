@@ -86,7 +86,7 @@ final class DisclosureGroupTests: XCTestCase {
         XCTAssertTrue(isExpanded.wrappedValue)
         
     }
-    
+
     func testExtractionFromSingleViewContainer() throws {
         let sampleDisclosure = DisclosureGroup(content: {
             VStack {
@@ -101,7 +101,7 @@ final class DisclosureGroupTests: XCTestCase {
         let view = AnyView(sampleDisclosure)
         XCTAssertNoThrow(try view.inspect().anyView().disclosureGroup())
     }
-    
+ 
     func testExtractionFromMultipleViewContainer() throws {
         let sampleDisclosure = DisclosureGroup(content: {
             VStack {
