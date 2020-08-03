@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		79069A6B238E8490000F6B58 /* OptionalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79069A6A238E8490000F6B58 /* OptionalContent.swift */; };
+		B2B1B2CB24D7B53B0052D818 /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1B2CA24D7B53B0052D818 /* DisclosureGroup.swift */; };
+		B2B1B2CD24D869280052D818 /* DisclosureGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1B2CC24D869280052D818 /* DisclosureGroupTests.swift */; };
 		F60385D523D3C74B008F31BD /* InspectionEmissary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60385D423D3C74B008F31BD /* InspectionEmissary.swift */; };
 		F60385D723D3CDED008F31BD /* InspectionEmissaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60385D623D3CDED008F31BD /* InspectionEmissaryTests.swift */; };
 		F609EFBD23A40B8800B9256A /* DelayedPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F609EFBC23A40B8800B9256A /* DelayedPreferenceView.swift */; };
@@ -175,6 +177,8 @@
 
 /* Begin PBXFileReference section */
 		79069A6A238E8490000F6B58 /* OptionalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalContent.swift; sourceTree = "<group>"; };
+		B2B1B2CA24D7B53B0052D818 /* DisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup.swift; sourceTree = "<group>"; };
+		B2B1B2CC24D869280052D818 /* DisclosureGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupTests.swift; sourceTree = "<group>"; };
 		F60385D423D3C74B008F31BD /* InspectionEmissary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionEmissary.swift; sourceTree = "<group>"; };
 		F60385D623D3CDED008F31BD /* InspectionEmissaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionEmissaryTests.swift; sourceTree = "<group>"; };
 		F609EFBC23A40B8800B9256A /* DelayedPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedPreferenceView.swift; sourceTree = "<group>"; };
@@ -406,6 +410,7 @@
 				F6D933B22385ED1400358E0E /* VSplitView.swift */,
 				F60EEBC92382EED0007DB53A /* VStack.swift */,
 				F60EEBC12382EED0007DB53A /* ZStack.swift */,
+				B2B1B2CA24D7B53B0052D818 /* DisclosureGroup.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -484,6 +489,7 @@
 				F6D933B42385ED2700358E0E /* VSplitViewTests.swift */,
 				F60EEBF02382F004007DB53A /* VStackTests.swift */,
 				F60EEBE72382F004007DB53A /* ZStackTests.swift */,
+				B2B1B2CC24D869280052D818 /* DisclosureGroupTests.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -665,6 +671,7 @@
 				F69C91CA2383187D00515A91 /* ModifiedContent.swift in Sources */,
 				F6D58B9323C4A0F3000CEE3B /* ViewHosting.swift in Sources */,
 				F639DBC323A7DDA2003A6FED /* TouchBar.swift in Sources */,
+				B2B1B2CB24D7B53B0052D818 /* DisclosureGroup.swift in Sources */,
 				F60EEBD32382EED0007DB53A /* ZStack.swift in Sources */,
 				F6ECF6CE23A67C64000FC591 /* SizingModifiers.swift in Sources */,
 				F6B7D0082494DE5500ABB5E0 /* CustomViewBuilder.swift in Sources */,
@@ -790,6 +797,7 @@
 				F6ECF6CC23A6702B000FC591 /* AnimationModifiersTests.swift in Sources */,
 				F60EEBFC2382F004007DB53A /* HStackTests.swift in Sources */,
 				F64057F1238DBB120029D9BA /* EmptyViewTests.swift in Sources */,
+				B2B1B2CD24D869280052D818 /* DisclosureGroupTests.swift in Sources */,
 				F6D933B12385EC5F00358E0E /* HSplitViewTests.swift in Sources */,
 				F64057F3238E9F600029D9BA /* OptionalViewTests.swift in Sources */,
 				F6684BFC23AA842000DECCB3 /* LinearGradientTests.swift in Sources */,
